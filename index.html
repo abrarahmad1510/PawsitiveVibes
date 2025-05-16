@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog Loversgi</title>
+    </head>
+    <body>
+        <h2>Dog Photo App</h2>
+        <main> 
+            <h3>Dog Photos</h3>
+            <p>Click Here to View More Dog Photos
+            <!--TODO: Add more dog photos later-->
+            <a href = "https://unsplash.com/s/photos/dogs">Dog Photos</a>
+            </p>
+            <a href="#"><img src="https://cdn.pixabay.com/photo/2016/01/05/17/51/maltese-1123016_1280.jpg" alt="A cute dog smiling in the greens" width="300" height="200"></a>   
+            <h3> Dog Lists </h3> 
+            <div>     
+                <p> Things Dogs <em><strong>Love</strong></em>: </p>
+                <ul>
+                    <li>A Happy Meal</li>
+                    <li>Laser Pointers</li>
+                    <li>Playtime</li>
+                    <li>Snuggles</li>
+                </ul>   
+                <img src="https://consequence.net/wp-content/uploads/2017/01/happy_meal_34.jpg?resize=1280,720" alt="A Happy Meal" width="300" height="200">
+                <p> Things Dogs <strong>Hate</strong>: </p>
+                <ol type="I">
+                    <li>Baths</li>
+                    <li>Vacuum Cleaners</li>
+                    <li>Fireworks</li>
+                    <li>Being Alone</li>
+                </ol>
+            </div>
+            <img src="https://thedogretreat.com/wp-content/uploads/2023/09/AdobeStock_305398567-scaled.jpeg" alt="A dog looking sad" width="300" height="200">
+            <form action = "/Sumbit-Dog-Photo" method = "POST">
+                <input type="radio" id="indoor-dog" name="dog-type" value="indoor" checked>
+                <label for="indoor-dog">Indoor Dog</label>
+                <br>
+
+                <input type="radio" id="outdoor-dog" name="dog-type" value="outdoor">
+                <label for="outdoor-dog">Outdoor Dog</label>
+                <br>
+                <label for = "playful"><input id = "playful" type = "checkbox" name = "personality" checked>Playful Dog</label>
+                <br>
+                <label for = "lazy"><input id = "lazy" type = "checkbox" name = "personality">Lazy Dog</label>
+                <br>
+                <label for = "energetic"><input id = "energetic" type = "checkbox" name = "personality">Energetic Dog</label>
+                <br>
+                <label for="dog-photo-url">Dog Photo URL:</label>
+                <input type="text" placeholder="Enter dog photo URL" required >
+                <br>
+                <buttfon type="submit">Submit</buttfon>
+                <br>
+        </main> 
+        <footer>
+            <p>No Copyright -- <a href = "https://abrarislive.vercel.app/" alt = "Abrar Ahmad">Abrar Ahmad</a></p>
+            
+    </body>
+</html>
